@@ -11,7 +11,7 @@ echo !MAJOR!.!MINOR!.!PATCH! > version.txt
 
 git add -A
 git commit -m "release: update installer v!MAJOR!.!MINOR!.!PATCH!"
-git push origin main
+git push origin master
 
 echo Done! Pushed v!MAJOR!.!MINOR!.!PATCH!
 pause
